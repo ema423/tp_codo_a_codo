@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/efd6c184b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="contenedorContacto">
+
+            <nav class="botonera">
+                <a href="Index.html"> <button type="button">Inicio</button> </a>
+                <a href="Recursos.html"> <button type="button">Recursos</button> </a>
+                <a href="Contacto.html"> <button type="button">Contacto</button></a>
+            </nav>
+
+
+            <h1 class="titulo"> Hola Mundo! <i class="fas fa-globe-americas"></i>
+            </h1>
+            <main class="main1">
+                <p>
+                    ¿Tenés alguna sugerencia de algun sitio que deberíamos agregar? Si es así, dejanos el link del
+                    sitio, tu dirección de
+                    correo electrónico (por si necesitamos contactarte) y tu comentario en caso de ser necesario, y así
+                    tendremos en cuenta
+                    tu sugerencia para agregarla en un futuro.
+                </p>
+            </main>
+
+            <div id="formulario">
+                <form method="POST" enctype="text/plain">
+                    <label for="email">Email: </label><br><br>
+                    <input id="email" type="email" name="email" required placeholder="Escribe tu email aquí">
+                    <br><br><br><br>
+
+                    <label for="url">Dirección WEB:</label><br><br>
+                    <input type="url" name="url" id="url" placeholder="Escribe el sitio propuesto" required>
+                    <br><br><br><br>
+                    <label for="mensaje">Mensaje:</label><br><br>
+                    <textarea placeholder="Agrega tus comentarios aquí (opcional)" type="text" name="mensaje"
+                        maxlength="200"></textarea>
+
+                    <br><br><br><br>
+
+                    <input class="botonSubmit" id="enviar" type="submit" value="Enviar">
+                    <input class="botonSubmit" id="borrar" type="reset" value="Borrar">
+            </div>
+            </form>
+
+
+
+
+
+
+            <footer>Emanuel Duca - Comisión 1118</footer>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</body>
+
+</html>
